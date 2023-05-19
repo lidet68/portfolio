@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Personal Portfolio</title>
+    </head>
+    <body>
+        <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">LG<b>.</b></div>
+                <ul class="navItems">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </nav>
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Hello</span>
+                    <h1>I'm<span class="multiText">coder</span></h1>
+                    <p>software engineering student and also a graphics designer in Adama science and technology university.</p>
+                    <div class="btns">
+
+                        <button>hire me</button>
+                    </div>
+                </div>
+                <div class="cols cols1">
+                    <div class="imgbox">
+                        <img src="splash2.png" id="splash">
+                        <img src="pngfind.com-cartoon-network-logo-png-198276.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+        <!--------------about--------------->
+        <section>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="pngfind.com-tumblr-overlays-png-one-3450046.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm Lidet Getu. I was born in Addis and I studied upto 2007EC then moved to Adama and
+                            currently living in there. Now Am A Third Year Software Engineering Student in Adama Science And
+                            Technology University. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('courses')">Courses</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-end</span><br>Html,Css and Js</li>
+                                <li><span>Graphics Designing</span><br>Photoshop and Adobe Illustrator</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-tab" id="courses">
+                            <ul>
+                                <li><span>Html, Css, Js</span></li>
+                                <li><span>Python, C++, Java, MySQL </span></li>
+                            </ul>
+                        </div>
+    
+    
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Web Designing</li>
+                                <li><span>2019</span><br>PhotoGraph</li>
+                                <li><span>2021</span><br>Grahics Designing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div></section>
+        <!-----------------skills--------------------------->
+        <div id="skills">
+            <div class="container">
+                <h1 class="sub-title">Skills</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="designecologist-Pmh0UoG1vlE-unsplash.jpg">
+                        <div class="layer">
+                            <h3>Web Design</h3>
+    
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="simon-hattinga-verschure-WNevBlZWCKA-unsplash.jpg">
+                        <div class="layer">
+                            <h3>PhotoGraph</h3>
+    
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="tianyi-ma-WiONHd_zYI4-unsplash.jpg">
+                        <div class="layer">
+                            <h3>Graphics Design</h3>
+    
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="graphics.html" class="btn">See more</a>
+            </div>
+    
+        </div>
+        <!---------------------------contact-------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>lidetgetu7@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>0942126263</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-sharp fa-solid fa-envelope"></i></a>
+    
+                        </div>
+                        <a href="images/lidet getu cv.docx" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright@2023 Lidet Getu</p>
+            </div>
+        </div>
+
+
+       <!---<script src="multiText"></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings : ["coder","student","designer"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                backDelay : 1500
+            })
+        </script>---->
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                } for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+    
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+    
+        </script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typingEffect = new Typed(".multitext", {
+                strings: ["Lidet Getu.", "Graphic Designer.","Coder."],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 80,
+                backDelay: 1500
+    
+            }) 
+        </script>
+    
+
+
+    </body>
+</html>
